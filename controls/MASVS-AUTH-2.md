@@ -1,9 +1,13 @@
 # MASVS-AUTH-2
 
-## Control
+## Контроль
+performs local authentication securely according to the platform best practices.
+Приложение выполняет локальную аутентфицкацию безопасно согласно с лучшими практиками платформы. 
 
-The app performs local authentication securely according to the platform best practices.
-
-## Description
+## Описание
 
 Many apps allow users to authenticate via biometrics or a local PIN code. These authentication mechanisms need to be correctly implemented. Additionally, some apps might not have a remote endpoint, and rely fully on local app authentication.
+
+Множество приложение позволяют пользователям аутентифицироваться с помощью биометрических данных или локального PIN-кода. Эти механизмы аутентификации нуждаются в корректной реализации. Дополнительно, некоторые приложения могут не иметь удаленной точки подключения, и полностью основывается на локальной аутентификации приложения.
+
+Множество приложений позволяют пользователям аутентифицироваться с помощью биометрических данных или локального PIN-кода. Эти механизмы аутентификации должны быть правильно реализованы. Кроме того, некоторые приложения могут не иметь удаленной точки подключения и полностью полагаться на локальную аутентификацию приложения.
