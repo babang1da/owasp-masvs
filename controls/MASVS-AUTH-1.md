@@ -1,9 +1,13 @@
 # MASVS-AUTH-1
 
-## Control
+## Контроль
 
-The app uses secure authentication and authorization protocols and follows the relevant best practices.
+Приложение использует безопасные протоколы аутентификации и авторизации и соответствуют лучшим практикам.
 
-## Description
+## Описание
+
+Большинство приложение подключается к удаленному еднпоинту требуя аутфентификацию пользователя и также принуждая к некотрому роду авторизации. Параллельно с этим приложение также должно убедится в том, что оно следует наилучшим практикам, чтобы подтвердить безопасное применение используемых протоколов.
 
 Most apps connecting to a remote endpoint require user authentication and also enforce some kind of authorization. While the enforcement of these mechanisms must be on the remote endpoint, the apps also have to ensure that it follows all the relevant best practices to ensure a secure use of the involved protocols.
+
+Большинство приложений, подключающихся к удаленному серверу, требуют аутентификации пользователя и также применяют механизмы авторизации. Хотя обеспечение этих механизмов должно происходить на удаленном сервере, приложения также должны следовать соответствующим рекомендациям для обеспечения безопасного использования протоколов, используемых приложением.
